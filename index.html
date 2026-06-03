@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bull Track Pro | Stocks + Bitcoin Crypto Terminal</title>
+    <meta name="description" content="Indian stocks + Bitcoin/crypto trading simulator — free live prices, portfolio, charts.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- ═══ SIDEBAR ═══ -->
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-logo"><i data-lucide="zap"></i></div>
+            <div>
+                <h2 class="brand-name">BullTrack</h2>
+                <span class="brand-sub">PRO TERMINAL</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <div class="nav-section-label">MARKET</div>
+            <div class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>Dashboard</span></div>
+            <div class="nav-item" data-view="screener"><i data-lucide="activity"></i><span>Market Screener</span></div>
+            <div class="nav-item" data-view="analysis"><i data-lucide="bar-chart-3"></i><span>Flow Analysis</span></div>
+            <div class="nav-item" data-view="companies"><i data-lucide="building-2"></i><span>Stock Market</span><span class="nav-badge nav-badge-live">600+</span></div>
+            <div class="nav-item" data-view="crypto"><i data-lucide="bitcoin"></i><span>Crypto Hub</span><span class="nav-badge nav-badge-live">LIVE</span></div>
+            <div class="nav-item" data-view="stocks"><i data-lucide="zap"></i><span>Quick Trade</span></div>
+
+            <div class="nav-section-label">PORTFOLIO</div>
+            <div class="nav-item" data-view="portfolio"><i data-lucide="briefcase"></i><span>Holdings</span><span class="nav-badge" id="nav-holdings-count">0</span></div>
+            <div class="nav-item" data-view="positions"><i data-lucide="activity"></i><span>Positions</span><span class="nav-badge nav-badge-live">LIVE</span></div>
+            <div class="nav-item" data-view="history"><i data-lucide="history"></i><span>Order History</span></div>
+            <div class="nav-item" data-view="wallet"><i data-lucide="wallet"></i><span>Virtual Wallet</span></div>
+
+            <div class="nav-section-label">COMMUNITY</div>
+            <div class="nav-item" data-view="leaderboard"><i data-lucide="trophy"></i><span>Leaderboard</span></div>
+            <div class="nav-item" data-view="challenge"><i data-lucide="target"></i><span>Challenges</span></div>
+
+            <div class="nav-section-label">MORE</div>
+            <div class="nav-item" data-view="guide"><i data-lucide="book-open"></i><span>User Guide</span></div>
+            <div class="nav-item" data-view="settings"><i data-lucide="settings"></i><span>Settings</span></div>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="profile-mini" onclick="UI.renderView('settings')">
+                <div class="avatar-circle" id="sidebar-avatar">SK</div>
+                <div>
+                    <div class="profile-name" id="sidebar-username">Shubham Kumar</div>
+                    <div class="profile-role">Pro Trader</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ═══ MAIN CONTENT ═══ -->
+    <main class="main-content">
+
+        <!-- TOP BAR -->
+        <header class="top-bar">
+            <div class="indices-strip">
+                <div class="index-item"><span class="index-label">NIFTY 50</span><b id="idx-nifty" class="index-val">—</b><span id="idx-nifty-chg" class="index-chg">—</span></div>
+                <div class="index-sep"></div>
+                <div class="index-item"><span class="index-label">SENSEX</span><b id="idx-sensex" class="index-val">—</b><span id="idx-sensex-chg" class="index-chg">—</span></div>
+                <div class="index-sep"></div>
+                <div class="index-item"><span class="index-label">BANK NIFTY</span><b id="idx-bank" class="index-val">—</b><span id="idx-bank-chg" class="index-chg">—</span></div>
+                <div class="index-sep"></div>
+                <div class="index-item"><span class="index-label">BITCOIN</span><b id="idx-btc" class="index-val">—</b><span id="idx-btc-chg" class="index-chg">—</span></div>
+                <div class="index-sep"></div>
+                <div class="index-item"><span class="index-label">ETHEREUM</span><b id="idx-eth" class="index-val">—</b><span id="idx-eth-chg" class="index-chg">—</span></div>
+            </div>
+            <div class="price-lookup-wrap price-lookup-wrap--bar">
+                <i data-lucide="search"></i>
+                <input type="text" id="global-price-search" placeholder="Search stock or crypto — RELIANCE, TCS, Zomato, HDFC… (live price)" autocomplete="off"
+                    oninput="UI.onPriceLookup(this.value)" onkeydown="if(event.key==='Enter')UI.lookupPriceNow()"
+                    onfocus="UI.onPriceLookup(this.value)">
+                <button type="button" class="btn-primary btn-price-inline" onclick="UI.lookupPriceNow()">Price</button>
+                <div id="price-lookup-dropdown" class="price-lookup-dropdown hidden"></div>
+            </div>
+            <div class="header-right">
+                <div class="title-group">
+                    <h1 id="page-title">Market Dashboard</h1>
+                    <span class="market-badge"><span class="badge-dot"></span><span id="market-status">Market Open</span></span>
+                </div>
+                <div class="header-actions">
+                    <div class="wallet-pill" onclick="UI.renderView('wallet')">
+                        <i data-lucide="wallet"></i>
+                        <span id="header-balance">₹0</span>
+                    </div>
+                    <button class="btn-secondary" onclick="UI.openAddStockModal()"><i data-lucide="plus-circle" class="icon-sm"></i>Add Stock</button>
+                    <button class="btn-primary" onclick="UI.renderView('stocks')"><i data-lucide="plus"></i>Trade</button>
+                    <button class="btn-icon" onclick="UI.addBalance()" aria-label="Add balance" title="Add balance"><i data-lucide="plus-circle"></i></button>
+                    <button class="btn-icon" id="theme-toggle" onclick="UI.toggleTheme()" aria-label="Toggle theme" title="Toggle theme"><i data-lucide="sun"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <!-- LIVE TICKER -->
+        <div class="ticker-wrap"><div class="ticker-inner" id="live-ticker"><span>Loading live market data…</span></div></div>
+
+        <!-- VIEW CONTAINER -->
+        <div class="view-container" id="view-container"></div>
+
+    </main>
+
+    <!-- ═══ WATCHLIST ═══ -->
+    <aside class="watchlist-panel">
+        <div class="watchlist-header">
+            <h3>Watchlist</h3>
+            <span class="market-badge market-badge-sm"><span class="badge-dot"></span>Live</span>
+        </div>
+        <div class="watchlist-search-wrap">
+            <i data-lucide="search"></i>
+            <input type="text" id="wl-search" placeholder="Search symbol…" oninput="UI.filterWatchlist(this.value)">
+        </div>
+        <div id="watchlist-items" class="watchlist-items"></div>
+    </aside>
+
+</div><!-- /app-container -->
+
+<!-- ═══ NOTIFICATIONS ═══ -->
+<div id="notification-area" class="notification-area"></div>
+
+<!-- ═══ TRADE MODAL ═══ -->
+<div id="trade-modal" class="modal-overlay hidden">
+    <div class="trade-card">
+        <div class="trade-header">
+            <div>
+                <div class="trade-symbol" id="tm-symbol">—</div>
+                <div class="trade-name" id="tm-name">—</div>
+            </div>
+            <button class="close-btn" onclick="UI.closeTradeModal()" aria-label="Close trade modal" title="Close"><i data-lucide="x"></i></button>
+        </div>
+        <div class="trade-price-row">
+            <div><div class="kp-label">MARKET PRICE</div><div class="trade-ltp text-green" id="tm-price">₹0.00</div></div>
+            <div class="text-right"><div class="kp-label">AVAILABLE</div><div class="trade-ltp" id="tm-balance">₹0.00</div></div>
+        </div>
+        <div class="trade-ohlc" id="tm-ohlc">
+            <div><span class="kp-label">OPEN</span><b id="tm-open">—</b></div>
+            <div><span class="kp-label">HIGH</span><b class="text-green" id="tm-high">—</b></div>
+            <div><span class="kp-label">LOW</span><b class="text-red" id="tm-low">—</b></div>
+            <div><span class="kp-label">PREV</span><b id="tm-prev">—</b></div>
+        </div>
+
+        <!-- TECHNICAL CHART -->
+        <div class="trade-chart-wrap">
+            <div class="trade-chart-toolbar">
+                <span class="kp-label"><i data-lucide="line-chart" class="icon-xs text-orange"></i>TECHNICAL CHART</span>
+                <div class="chart-period-tabs">
+                    <button class="btn-period" onclick="UI.changeTerminalPeriod('1D', this)">1D</button>
+                    <button class="btn-period" onclick="UI.changeTerminalPeriod('1W', this)">1W</button>
+                    <button class="btn-period active" onclick="UI.changeTerminalPeriod('1M', this)">1M</button>
+                    <button class="btn-period" onclick="UI.changeTerminalPeriod('1Y', this)">1Y</button>
+                </div>
+            </div>
+            <div id="terminal-chart"></div>
+        </div>
+
+        <div class="input-group input-group-mb16">
+            <label id="qty-label">QUANTITY</label>
+            <div class="qty-wrap">
+                <button class="qty-btn" onclick="UI.changeQty(-1)">−</button>
+                <input type="number" id="tm-qty" value="1" min="0.00001" step="1" oninput="UI.updateTradeTotal()" aria-labelledby="qty-label" title="Quantity">
+                <button class="qty-btn" onclick="UI.changeQty(1)">+</button>
+            </div>
+        </div>
+        <div class="trade-total-row"><span>Order Value</span><b id="tm-total">₹0.00</b></div>
+        <div class="trade-action-row">
+            <button class="btn-buy" onclick="UI.executeTrade('BUY')"><i data-lucide="trending-up"></i>BUY</button>
+            <button class="btn-sell" onclick="UI.executeTrade('SELL')"><i data-lucide="trending-down"></i>SELL</button>
+        </div>
+    </div>
+</div>
+
+<!-- ═══ WALLET MODAL ═══ -->
+<div id="balance-modal" class="modal-overlay hidden">
+    <div class="modal-sm modal-sm-sized">
+        <div class="modal-sm-header">
+            <h3 class="modal-heading">Manage Wallet</h3>
+            <button class="close-btn" onclick="document.getElementById('balance-modal').classList.add('hidden')" aria-label="Close wallet modal" title="Close"><i data-lucide="x"></i></button>
+        </div>
+        
+        <div class="wallet-tabs-row">
+            <button id="tab-add" class="btn-primary wallet-tab-btn" onclick="UI.setWalletMode('add')">Deposit</button>
+            <button id="tab-withdraw" class="btn-secondary wallet-tab-btn-center" onclick="UI.setWalletMode('withdraw')">Withdraw</button>
+        </div>
+
+        <div class="input-group">
+            <label>AMOUNT (₹)</label>
+            <input type="number" id="add-bal-input" placeholder="Enter amount" min="1" class="modal-input-lg">
+        </div>
+        <div class="quick-amounts quick-amounts-mb">
+            <button class="quick-btn" onclick="document.getElementById('add-bal-input').value=10000">₹10K</button>
+            <button class="quick-btn" onclick="document.getElementById('add-bal-input').value=50000">₹50K</button>
+            <button class="quick-btn" onclick="document.getElementById('add-bal-input').value=100000">₹1L</button>
+            <button class="quick-btn" onclick="document.getElementById('add-bal-input').value=500000">₹5L</button>
+        </div>
+        
+        <button id="btn-wallet-submit" class="btn-primary btn-full-lg" onclick="UI.confirmWalletTx()">
+            Confirm Deposit
+        </button>
+    </div>
+</div>
+
+<!-- ═══ ADD STOCK MODAL ═══ -->
+<div id="add-stock-modal" class="modal-overlay hidden">
+    <div class="modal-sm modal-sm-sized">
+        <div class="modal-sm-header">
+            <h3 class="modal-heading">Add Custom Stock</h3>
+            <button class="close-btn" onclick="document.getElementById('add-stock-modal').classList.add('hidden')" aria-label="Close add stock modal" title="Close"><i data-lucide="x"></i></button>
+        </div>
+        <p class="modal-desc">Add NSE stocks (RELIANCE.NS) or crypto (BTC-USD, ETH-USD, SOL-USD) — free live data.</p>
+        <div class="input-group input-group-mb16">
+            <label>STOCK SYMBOL</label>
+            <input type="text" id="add-stock-symbol" placeholder="e.g. RELIANCE.NS" class="modal-input-upper">
+        </div>
+        <div class="input-group input-group-mb24">
+            <label>COMPANY NAME (Optional)</label>
+            <input type="text" id="add-stock-name" placeholder="e.g. Reliance Industries" class="modal-input-md">
+        </div>
+        
+        <button id="btn-add-stock-submit" class="btn-primary btn-full-lg-nomt" onclick="UI.submitNewStock()">
+            Add to Platform
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,3002 @@
+[
+    {
+        "symbol": "RELIANCE.NS",
+        "name": "Reliance Industries Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "INFY.NS",
+        "name": "Infosys Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "BHARTIARTL.NS",
+        "name": "Bharti Airtel Ltd",
+        "sector": "Telecom"
+    },
+    {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "LICI.NS",
+        "name": "Life Insurance Corporation of India",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "ITC.NS",
+        "name": "ITC Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "HUL.NS",
+        "name": "Hindustan Unilever Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "LT.NS",
+        "name": "Larsen & Toubro Ltd",
+        "sector": "Construction"
+    },
+    {
+        "symbol": "BAJFINANCE.NS",
+        "name": "Bajaj Finance Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "KOTAKBANK.NS",
+        "name": "Kotak Mahindra Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "AXISBANK.NS",
+        "name": "Axis Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "ADANIENT.NS",
+        "name": "Adani Enterprises Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "SUNPHARMA.NS",
+        "name": "Sun Pharmaceutical Industries Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "TITAN.NS",
+        "name": "Titan Company Ltd",
+        "sector": "Consumer Durables"
+    },
+    {
+        "symbol": "ONGC.NS",
+        "name": "Oil & Natural Gas Corporation Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ASIANPAINT.NS",
+        "name": "Asian Paints Ltd",
+        "sector": "Consumer Durables"
+    },
+    {
+        "symbol": "ULTRACEMCO.NS",
+        "name": "UltraTech Cement Ltd",
+        "sector": "Construction"
+    },
+    {
+        "symbol": "NTPC.NS",
+        "name": "NTPC Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "M&M.NS",
+        "name": "Mahindra & Mahindra Ltd",
+        "sector": "Automobile"
+    },
+    {
+        "symbol": "MARUTI.NS",
+        "name": "Maruti Suzuki India Ltd",
+        "sector": "Automobile"
+    },
+    {
+        "symbol": "WIPRO.NS",
+        "name": "Wipro Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "HCLTECH.NS",
+        "name": "HCL Technologies Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "JSWSTEEL.NS",
+        "name": "JSW Steel Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "TATASTEEL.NS",
+        "name": "Tata Steel Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "COALINDIA.NS",
+        "name": "Coal India Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "POWERGRID.NS",
+        "name": "Power Grid Corporation of India Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ADANIPORTS.NS",
+        "name": "Adani Ports and Special Economic Zone Ltd",
+        "sector": "Services"
+    },
+    {
+        "symbol": "GRASIM.NS",
+        "name": "Grasim Industries Ltd",
+        "sector": "Construction"
+    },
+    {
+        "symbol": "SBILIFE.NS",
+        "name": "SBI Life Insurance Company Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "BAJAJFINSV.NS",
+        "name": "Bajaj Finserv Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "INDUSINDBK.NS",
+        "name": "IndusInd Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "HINDALCO.NS",
+        "name": "Hindalco Industries Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "ADANIPOWER.NS",
+        "name": "Adani Power Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "NESTLEIND.NS",
+        "name": "Nestle India Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "TATACONSUM.NS",
+        "name": "Tata Consumer Products Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "TECHM.NS",
+        "name": "Tech Mahindra Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "HDFCLIFE.NS",
+        "name": "HDFC Life Insurance Company Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "EICHERMOT.NS",
+        "name": "Eicher Motors Ltd",
+        "sector": "Automobile"
+    },
+    {
+        "symbol": "BRITANNIA.NS",
+        "name": "Britannia Industries Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "BPCL.NS",
+        "name": "Bharat Petroleum Corporation Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "CIPLA.NS",
+        "name": "Cipla Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "DRREDDY.NS",
+        "name": "Dr. Reddy's Laboratories Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "APOLLOHOSP.NS",
+        "name": "Apollo Hospitals Enterprise Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "DIVISLAB.NS",
+        "name": "Divi's Laboratories Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "BAJAJ-AUTO.NS",
+        "name": "Bajaj Auto Ltd",
+        "sector": "Automobile"
+    },
+    {
+        "symbol": "HEROMOTOCO.NS",
+        "name": "Hero MotoCorp Ltd",
+        "sector": "Automobile"
+    },
+    {
+        "symbol": "BEL.NS",
+        "name": "Bharat Electronics Ltd",
+        "sector": "Capital Goods"
+    },
+    {
+        "symbol": "HAL.NS",
+        "name": "Hindustan Aeronautics Ltd",
+        "sector": "Capital Goods"
+    },
+    {
+        "symbol": "DLF.NS",
+        "name": "DLF Ltd",
+        "sector": "Real Estate"
+    },
+    {
+        "symbol": "LTIM.NS",
+        "name": "LTIMindtree Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "SBICARD.NS",
+        "name": "SBI Cards and Payment Services Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "ZOMATO.NS",
+        "name": "Zomato Ltd",
+        "sector": "Services"
+    },
+    {
+        "symbol": "PAYTM.NS",
+        "name": "One 97 Communications Ltd",
+        "sector": "Services"
+    },
+    {
+        "symbol": "NYKAA.NS",
+        "name": "FSN E-Commerce Ventures Ltd",
+        "sector": "Services"
+    },
+    {
+        "symbol": "IRCTC.NS",
+        "name": "Indian Railway Catering & Tourism Corporation Ltd",
+        "sector": "Services"
+    },
+    {
+        "symbol": "RVNL.NS",
+        "name": "Rail Vikas Nigam Ltd",
+        "sector": "Construction"
+    },
+    {
+        "symbol": "IRFC.NS",
+        "name": "Indian Railway Finance Corporation Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "BHEL.NS",
+        "name": "Bharat Heavy Electricals Ltd",
+        "sector": "Capital Goods"
+    },
+    {
+        "symbol": "GAIL.NS",
+        "name": "GAIL (India) Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "IOC.NS",
+        "name": "Indian Oil Corporation Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "VEDL.NS",
+        "name": "Vedanta Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "HINDZINC.NS",
+        "name": "Hindustan Zinc Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "NMDC.NS",
+        "name": "NMDC Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "SAIL.NS",
+        "name": "Steel Authority of India Ltd",
+        "sector": "Metals"
+    },
+    {
+        "symbol": "PFC.NS",
+        "name": "Power Finance Corporation Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "RECLTD.NS",
+        "name": "REC Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "IDFCFIRSTB.NS",
+        "name": "IDFC First Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "YESBANK.NS",
+        "name": "Yes Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "PNB.NS",
+        "name": "Punjab National Bank",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "BANKBARODA.NS",
+        "name": "Bank of Baroda",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "UNIONBANK.NS",
+        "name": "Union Bank of India",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "CANBK.NS",
+        "name": "Canara Bank",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "IDBI.NS",
+        "name": "IDBI Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "CENTRALBK.NS",
+        "name": "Central Bank of India",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "IOB.NS",
+        "name": "Indian Overseas Bank",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "UCOBANK.NS",
+        "name": "UCO Bank",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "MAHABANK.NS",
+        "name": "Bank of Maharashtra",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "PSB.NS",
+        "name": "Punjab & Sind Bank",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "J&KBANK.NS",
+        "name": "The Jammu & Kashmir Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "AUBANK.NS",
+        "name": "AU Small Finance Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "FEDERALBNK.NS",
+        "name": "The Federal Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "BANDHANBNK.NS",
+        "name": "Bandhan Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "RBLBANK.NS",
+        "name": "RBL Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "KARURVYSYA.NS",
+        "name": "Karur Vysya Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "CUB.NS",
+        "name": "City Union Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "DCBBANK.NS",
+        "name": "DCB Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "SOUTHBANK.NS",
+        "name": "The South Indian Bank Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "TATAELXSI.NS",
+        "name": "Tata Elxsi Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "KPITTECH.NS",
+        "name": "KPIT Technologies Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "COFORGE.NS",
+        "name": "Coforge Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "PERSISTENT.NS",
+        "name": "Persistent Systems Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "MPHASIS.NS",
+        "name": "Mphasis Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "LTTS.NS",
+        "name": "L&T Technology Services Ltd",
+        "sector": "IT"
+    },
+    {
+        "symbol": "TATACOMM.NS",
+        "name": "Tata Communications Ltd",
+        "sector": "Telecom"
+    },
+    {
+        "symbol": "IDEA.NS",
+        "name": "Vodafone Idea Ltd",
+        "sector": "Telecom"
+    },
+    {
+        "symbol": "HFCL.NS",
+        "name": "HFCL Ltd",
+        "sector": "Telecom"
+    },
+    {
+        "symbol": "ITI.NS",
+        "name": "ITI Ltd",
+        "sector": "Telecom"
+    },
+    {
+        "symbol": "BERGEPAINT.NS",
+        "name": "Berger Paints India Ltd",
+        "sector": "Consumer Durables"
+    },
+    {
+        "symbol": "KANSAINER.NS",
+        "name": "Kansai Nerolac Paints Ltd",
+        "sector": "Consumer Durables"
+    },
+    {
+        "symbol": "PIDILITIND.NS",
+        "name": "Pidilite Industries Ltd",
+        "sector": "Chemicals"
+    },
+    {
+        "symbol": "SRF.NS",
+        "name": "SRF Ltd",
+        "sector": "Chemicals"
+    },
+    {
+        "symbol": "AARTIIND.NS",
+        "name": "Aarti Industries Ltd",
+        "sector": "Chemicals"
+    },
+    {
+        "symbol": "DEEPAKNTR.NS",
+        "name": "Deepak Nitrite Ltd",
+        "sector": "Chemicals"
+    },
+    {
+        "symbol": "TATACHEM.NS",
+        "name": "Tata Chemicals Ltd",
+        "sector": "Chemicals"
+    },
+    {
+        "symbol": "GUJGASLTD.NS",
+        "name": "Gujarat Gas Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "IGL.NS",
+        "name": "Indraprastha Gas Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "MGL.NS",
+        "name": "Mahanagar Gas Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "PETRONET.NS",
+        "name": "Petronet LNG Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "GSPL.NS",
+        "name": "Gujarat State Petronet Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ABCAPITAL.NS",
+        "name": "Aditya Birla Capital Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "CHOLAFIN.NS",
+        "name": "Cholamandalam Investment and Finance Company Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "MUTHOOTFIN.NS",
+        "name": "Muthoot Finance Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "MANAPPURAM.NS",
+        "name": "Manappuram Finance Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "SRTRANSFIN.NS",
+        "name": "Shriram Transport Finance Company Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "M&MFIN.NS",
+        "name": "Mahindra & Mahindra Financial Services Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "L&TFH.NS",
+        "name": "L&T Finance Holdings Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "EDELWEISS.NS",
+        "name": "Edelweiss Financial Services Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "IBULHSGFIN.NS",
+        "name": "Indiabulls Housing Finance Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "LICHSGFIN.NS",
+        "name": "LIC Housing Finance Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "CANFINHOME.NS",
+        "name": "Can Fin Homes Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "HUDCO.NS",
+        "name": "Housing & Urban Development Corporation Ltd",
+        "sector": "Finance"
+    },
+    {
+        "symbol": "LUPIN.NS",
+        "name": "Lupin Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "AUROPHARMA.NS",
+        "name": "Aurobindo Pharma Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "BIOCON.NS",
+        "name": "Biocon Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "GLENMARK.NS",
+        "name": "Glenmark Pharmaceuticals Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "LAURUSLABS.NS",
+        "name": "Laurus Labs Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "IPCALAB.NS",
+        "name": "Ipca Laboratories Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "ALKEM.NS",
+        "name": "Alkem Laboratories Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "SYNGENE.NS",
+        "name": "Syngene International Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "MAXHEALTH.NS",
+        "name": "Max Healthcare Institute Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "FORTIS.NS",
+        "name": "Fortis Healthcare Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "METROPOLIS.NS",
+        "name": "Metropolis Healthcare Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "LALPATHLAB.NS",
+        "name": "Dr. Lal PathLabs Ltd",
+        "sector": "Healthcare"
+    },
+    {
+        "symbol": "TATARELI.NS",
+        "name": "Tata Reliance Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ADANIGREEN.NS",
+        "name": "Adani Green Energy Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ADANITRANS.NS",
+        "name": "Adani Transmission Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ADANIGAS.NS",
+        "name": "Adani Total Gas Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "ATGL.NS",
+        "name": "Adani Total Gas Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "AWL.NS",
+        "name": "Adani Wilmar Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "PATANJALI.NS",
+        "name": "Patanjali Foods Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "COLPAL.NS",
+        "name": "Colgate-Palmolive (India) Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "DABUR.NS",
+        "name": "Dabur India Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "MARICO.NS",
+        "name": "Marico Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "GODREJCP.NS",
+        "name": "Godrej Consumer Products Ltd",
+        "sector": "FMCG"
+    },
+    {
+        "symbol": "TATAPOWER.NS",
+        "name": "Tata Power Company Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "JSWENERGY.NS",
+        "name": "JSW Energy Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "NHPC.NS",
+        "name": "NHPC Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "SJVN.NS",
+        "name": "SJVN Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "RELIANCE.NS",
+        "name": "Reliance Industries Ltd",
+        "sector": "Energy"
+    },
+    {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc.",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "META",
+        "name": "Meta Platforms Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "V",
+        "name": "Visa Inc.",
+        "sector": "Financial Services"
+    },
+    {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase & Co.",
+        "sector": "Financial Services"
+    },
+    {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "NFLX",
+        "name": "Netflix Inc.",
+        "sector": "Communication Services"
+    },
+    {
+        "symbol": "DIS",
+        "name": "The Walt Disney Company",
+        "sector": "Communication Services"
+    },
+    {
+        "symbol": "CRM",
+        "name": "Salesforce Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "CSCO",
+        "name": "Cisco Systems Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "IBM",
+        "name": "IBM Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "BABA",
+        "name": "Alibaba Group Holding Ltd",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "JD",
+        "name": "JD.com Inc.",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "BIDU",
+        "name": "Baidu Inc.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "PDD",
+        "name": "Pinduoduo Inc.",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "TCEHY",
+        "name": "Tencent Holdings Ltd",
+        "sector": "Communication Services"
+    },
+    {
+        "symbol": "SONY",
+        "name": "Sony Group Corporation",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Company",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "ASML",
+        "name": "ASML Holding N.V.",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "SAP",
+        "name": "SAP SE",
+        "sector": "Technology"
+    },
+    {
+        "symbol": "TM",
+        "name": "Toyota Motor Corporation",
+        "sector": "Consumer Discretionary"
+    },
+    {
+        "symbol": "MOSERBAER.NS",
+        "name": "Moser Baer India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAZDA.NS",
+        "name": "Mazda Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MEDICAPSBE.NS",
+        "name": "Medi-Caps Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUTHOOTCAP.NS",
+        "name": "Muthoot Capital Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHINDUGIN.NS",
+        "name": "Mahindra Ugine Steel Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MCLEODRUSS.NS",
+        "name": "McLeod Russel (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MATRIXLABS.NS",
+        "name": "Mylan Laboratories Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MBECL.NS",
+        "name": "McNally Bharat Engineering Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MTEDUCARE.NS",
+        "name": "MT Educare Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MTNL.NS",
+        "name": "Mahanagar Telephone Nigam Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "METKOREBE.NS",
+        "name": "Metkore Alloys & Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MADHAV.NS",
+        "name": "Madhav Marbles & Granites Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAANALU.NS",
+        "name": "Maan Aluminium Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAARSOFTWBE.NS",
+        "name": "Maars Software International Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAXVIL.NS",
+        "name": "Max Ventures and Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOTOGENFINBE.NS",
+        "name": "Motor & General Finance Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHENDSUITBE.NS",
+        "name": "Mahendra Petrochemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAKE.NS",
+        "name": "Marico Kaya Enterprises Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MALWACOTTBE.NS",
+        "name": "Malwa Cotton Spinning Mills Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANAKALUCOBE.NS",
+        "name": "Manaksia Aluminium Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MONSANTO.NS",
+        "name": "Monsanto India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "INERTIAINDBE.NS",
+        "name": "Millennium Beer Industries Ltd.[Amalgamated]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MODIPONBE.NS",
+        "name": "Modipon Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAGNUM.NS",
+        "name": "Magnum Ventures Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MILTONPLAS.NS",
+        "name": "MPL Plastics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MIRZAINT.NS",
+        "name": "Mirza International Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOLDTKPAC.NS",
+        "name": "Mold-Tek Packaging Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MIRCELECTR.NS",
+        "name": "MIRC Electronics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MMFL.NS",
+        "name": "M M Forgings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANAKSTEEL.NS",
+        "name": "Manaksia Steels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "PARRYAGRO.NS",
+        "name": "Murugappa Holdings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANINFRA.NS",
+        "name": "Man Infraconstruction  Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANGCHEFER.NS",
+        "name": "Mangalore Chemicals & Fertilizers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MERCATOR.NS",
+        "name": "Mercator Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MRO-TEK.NS",
+        "name": "MRO-TEK Realty Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "VISESHINFOBE.NS",
+        "name": "MPS Infotecnics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MROIT.NS",
+        "name": "M R Organisation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MONTARINDBE.NS",
+        "name": "Montari Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAJESTINDBE.NS",
+        "name": "Majestic Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MALCO.NS",
+        "name": "Madras Aluminium Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MURUDCERA.NS",
+        "name": "Murudeshwar Ceramics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAXINDIA.NS",
+        "name": "Max India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHSEAMLES.NS",
+        "name": "Maharashtra Seamless Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MENONBE.NS",
+        "name": "Menon Bearings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MMNLIT.NS",
+        "name": "MIG Media Neurons Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOTHERSUMI.NS",
+        "name": "Motherson Sumi Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANGTIMBER.NS",
+        "name": "Mangalam Timber Products Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHAPEXLTD.NS",
+        "name": "Maha Rashtra Apex Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MONICAELECBE.NS",
+        "name": "Monica Electronics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MARALOVER.NS",
+        "name": "Maral Overseas Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MASTEK.NS",
+        "name": "Mastek Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MINDAIND.NS",
+        "name": "Minda Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MVL.NS",
+        "name": "MVL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MINDTECK.NS",
+        "name": "Mindteck (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MODINSULATBE.NS",
+        "name": "Modern Insulators Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MADHURFOODBE.NS",
+        "name": "Madhur Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANALIPETC.NS",
+        "name": "Manali Petrochemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MARATHON.NS",
+        "name": "Marathon Nextgen Realty Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHASTEEL.NS",
+        "name": "Mahamaya Steel Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAFATLAINDBE.NS",
+        "name": "Mafatlal Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOLDTECH.NS",
+        "name": "Mold-Tek Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANJUSHREE.NS",
+        "name": "Manjushree Technopack Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MEGASOFT.NS",
+        "name": "Megasoft Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "GLOBABOARDBE.NS",
+        "name": "Metroglobal Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANGALAM.NS",
+        "name": "Mangalam Drugs and Organics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MPSLTD.NS",
+        "name": "MPS Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MELSTAR.NS",
+        "name": "Melstar Information Technology Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MADHUCON.NS",
+        "name": "Madhucon Projects Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANPASAND.NS",
+        "name": "Manpasand Beverages Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOIL.NS",
+        "name": "MOIL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUKATPIPEBE.NS",
+        "name": "Mukat Pipes Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "KRISNAFILA.NS",
+        "name": "Mavi Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MSPLBE.NS",
+        "name": "MSP Steel & Power Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MINDTREE.NS",
+        "name": "MindTree Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAGMA.NS",
+        "name": "Magma Fincorp Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAWANASUG.NS",
+        "name": "Mawana Sugars Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MCLSM.NS",
+        "name": "Madhav Copper Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MORARJEE.NS",
+        "name": "Morarjee Textiles Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHLIFE.NS",
+        "name": "Mahindra Lifespace Developers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MMWL.NS",
+        "name": "Media Matrix Worldwide Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOREPENLAB.NS",
+        "name": "Morepen Laboratories Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANAKSIA.NS",
+        "name": "Manaksia Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAYURUNIQ.NS",
+        "name": "Mayur Uniquoters Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOHINIIT.NS",
+        "name": "Mohini Fibers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MYSORPETROBE.NS",
+        "name": "Mysore Petro Chemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MEP.NS",
+        "name": "MEP Infrastructure Developers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MMTC.NS",
+        "name": "MMTC Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUKANDENGG.NS",
+        "name": "Mukand Engineers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MALUPAPER.NS",
+        "name": "Malu Paper Mills Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "METAZINCBE.NS",
+        "name": "MTZ Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAJESAUTO.NS",
+        "name": "Majestic Auto Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MFSL.NS",
+        "name": "Max Financial Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANINDS.NS",
+        "name": "Man Industries (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANJEERA.NS",
+        "name": "Manjeera Constructions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOTILALOFS.NS",
+        "name": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MADRASFERT.NS",
+        "name": "Madras Fertilizers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MEGH.NS",
+        "name": "Meghmani Organics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MandMFIN.NS",
+        "name": "Mahindra & Mahindra Financial Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAITHANALL.NS",
+        "name": "Maithan Alloys Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUNJALSHOW.NS",
+        "name": "Munjal Showa Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MURLIINDBZ.NS",
+        "name": "Murli Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANUGRAPH.NS",
+        "name": "Manugraph India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MASKINVESTBE.NS",
+        "name": "Mask Investments Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MARKSANS.NS",
+        "name": "Marksans Pharma Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANDHANABZ.NS",
+        "name": "Mandhana Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MBAPLSM.NS",
+        "name": "Madhya Bharat Agro Products Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOMAISM.NS",
+        "name": "Momai Apparels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "METROCHEM.NS",
+        "name": "Metrochem Industries Ltd.[Amalgamated]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAWANA.NS",
+        "name": "Mawana Sugars Ltd.(Old)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MONTECARLO.NS",
+        "name": "Monte Carlo Fashions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUNJALAU.NS",
+        "name": "Munjal Auto Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MIC.NS",
+        "name": "MIC Electronics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHINDCIE.NS",
+        "name": "Mahindra CIE Automotive Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUKERPAPERBE.NS",
+        "name": "Mukerian Papers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANAKINDSTBE.NS",
+        "name": "Manaksia Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MARG.NS",
+        "name": "Marg Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAIKALFIBRBE.NS",
+        "name": "Maikaal Fibres Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUKTAARTS.NS",
+        "name": "Mukta Arts Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MONNETISPA.NS",
+        "name": "Monnet Ispat & Energy Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHESHWARISM.NS",
+        "name": "Maheshwari Logistics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "METALFORGE.NS",
+        "name": "Metalyst Forgings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MODIRUBBER.NS",
+        "name": "Modi Rubber Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MERCK.NS",
+        "name": "Merck Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MRPL.NS",
+        "name": "Mangalore Refinery And Petrochemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAJESCO.NS",
+        "name": "Majesco Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANAKCOAT.NS",
+        "name": "Manaksia Coated Metals & Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MPAGROFERTBE.NS",
+        "name": "M P Agro Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MandM.NS",
+        "name": "Mahindra & Mahindra Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MATHPLATTBE.NS",
+        "name": "MPIL Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "METALPIPEBE.NS",
+        "name": "Metalman Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MANGLMCEM.NS",
+        "name": "Mangalam Cement Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MHRIL.NS",
+        "name": "Mahindra Holidays & Resorts India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MULTIARCBE.NS",
+        "name": "Multi - Arc India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MODERNMALBE.NS",
+        "name": "Modern Malleables Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MINDACORP.NS",
+        "name": "Minda Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MITCONSM.NS",
+        "name": "MITCON Consultancy & Engineering Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MCX.NS",
+        "name": "Multi Commodity Exchange of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MCDHOLDING.NS",
+        "name": "McDowell Holdings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MCSLIT.NS",
+        "name": "Mahaveer Cotts Strings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MRF.NS",
+        "name": "MRF Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MBLINFRA.NS",
+        "name": "MBL Infrastructures Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MOHITIND.NS",
+        "name": "Mohit Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAHSCOOTER.NS",
+        "name": "Maharashtra Scooters Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MUKANDLTD.NS",
+        "name": "Mukand Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MADSUDINDBE.NS",
+        "name": "Madhusudan Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MICROTECH.NS",
+        "name": "Micro Technologies (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WESTINDSECBE.NS",
+        "name": "Wisec Global Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELINV.NS",
+        "name": "Welspun Investments & Commercials Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELGLOBBE.NS",
+        "name": "Welspun Global Brands Ltd.[Amalgamated]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WIMPLAST.NS",
+        "name": "Wim Plast Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "GEORGWILIMBE.NS",
+        "name": "Williamson Tea Assam Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WEIZMANIND.NS",
+        "name": "Weizmann Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WHIRLPOOL.NS",
+        "name": "Whirlpool of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WILLARDLTDBE.NS",
+        "name": "Willard India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WSI.NS",
+        "name": "W S Industries (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WINDMACHIN.NS",
+        "name": "Windsor Machines Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WINSOMEDJ.NS",
+        "name": "Winsome Diamonds and Jewellery Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELLWININD.NS",
+        "name": "Wellwin Industry Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WONDERLA.NS",
+        "name": "Wonderla Holidays Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELENT.NS",
+        "name": "Welspun Enterprises Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELENTRP.NS",
+        "name": "Welspun Enterprises Ltd. (Old)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WENDT.NS",
+        "name": "Wendt India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WARRENTEA.NS",
+        "name": "Warren Tea Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WEIZFOREXBE.NS",
+        "name": "Weizmann Forex Ltd.[Amalgamated]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WARTSILA.NS",
+        "name": "Wartsila India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WANBURYBE.NS",
+        "name": "Wanbury Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WEALTHSM.NS",
+        "name": "Wealth First Portfolio Managers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WHEELS.NS",
+        "name": "Wheels India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WEBELSOLAR.NS",
+        "name": "Websol Energy Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WYETH.NS",
+        "name": "Wyeth Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "GFL.NS",
+        "name": "Wadala Commodities Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELCORP.NS",
+        "name": "Welspun Corp Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WOPOLIN.NS",
+        "name": "Wopolin Plastics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WILLAMAGOR.NS",
+        "name": "Williamson Magor & Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WALCHANNAG.NS",
+        "name": "Walchandnagar Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WSTCSTPAPR.NS",
+        "name": "West Coast Paper Mills Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WEIZFOREX.NS",
+        "name": "Weizmann Forex Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELSPUNIND.NS",
+        "name": "Welspun India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WATERBASEBT.NS",
+        "name": "Waterbase Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WELMANINCABE.NS",
+        "name": "Wellman Incandescent India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WABCOINDIA.NS",
+        "name": "WABCO India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WINSOME.NS",
+        "name": "Winsome Yarns Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WOCKPHARMA.NS",
+        "name": "Wockhardt Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HONAUT.NS",
+        "name": "Honeywell Automation India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "REPLENGINEBE.NS",
+        "name": "Heatshrink Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HMTBE.NS",
+        "name": "HMT Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDPETRO.NS",
+        "name": "Hindustan Petroleum Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MAFATLAFINBE.NS",
+        "name": "Hybrid Financial Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HONDAPOWER.NS",
+        "name": "Honda Siel Power Products Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HELIOSMATHBZ.NS",
+        "name": "Helios and Matheson Information Technology Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIMATSEIDE.NS",
+        "name": "Himatsingka Seide Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HOTELEELA.NS",
+        "name": "Hotel Leela Venture Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDUNILVR.NS",
+        "name": "Hindustan Unilever Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HBLPOWER.NS",
+        "name": "HBL Power Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HATHWAY.NS",
+        "name": "Hathway Cable & Datacom Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDTINWRKBE.NS",
+        "name": "Hindustan Tin Works Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HITECHPLAS.NS",
+        "name": "Hitech Plast Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HAVELLS.NS",
+        "name": "Havells India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HSCL.NS",
+        "name": "Himadri Speciality Chemical Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINPOWPLUS.NS",
+        "name": "Hindustan Power Plus Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HEXAWARE.NS",
+        "name": "Hexaware Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HANILERA.NS",
+        "name": "Hanil Era Textiles Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINVDIR.NS",
+        "name": "HSBC InvestDirect (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HARIGCRANKBE.NS",
+        "name": "Harig Crankshafts Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDCOMPOS.NS",
+        "name": "Hindustan Composites Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HDIL.NS",
+        "name": "Housing Development & Infrastructure Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HILTON.NS",
+        "name": "Hilton Metal Forging Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HARRMALAYA.NS",
+        "name": "Harrisons Malayalam Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HPL.NS",
+        "name": "HPL Electric & Power Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HCG.NS",
+        "name": "Healthcare Global Enterprises Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIMGRANITEBE.NS",
+        "name": "Himalaya Granites Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HERBETSONBT.NS",
+        "name": "Herbertsons Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HECINFRAIT.NS",
+        "name": "HEC Infra Projects Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDUJAFO.NS",
+        "name": "Hinduja Foundries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HERITGFOOD.NS",
+        "name": "Heritage Foods Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HOCLBE.NS",
+        "name": "Hindustan Organic Chemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HSIL.NS",
+        "name": "HSIL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIRECT.NS",
+        "name": "Hind Rectifiers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HCL-INSYS.NS",
+        "name": "HCL Infosystems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HAWKINCOOKBE.NS",
+        "name": "Hawkins Cookers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HISARMETAL.NS",
+        "name": "Hisar Metal Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDSPGBE.NS",
+        "name": "Hindoostan Spinning & Weaving Mills Ltd.[Merged]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HESTERBIO.NS",
+        "name": "Hester Biosciences Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HOVS.NS",
+        "name": "HOV Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HANUNG.NS",
+        "name": "Hanung Toys & Textiles Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIL.NS",
+        "name": "HIL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "MICRO.NS",
+        "name": "Hubergroup India Pvt. Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HEG.NS",
+        "name": "HEG Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HCC.NS",
+        "name": "Hindustan Construction Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIRAFERRO.NS",
+        "name": "Hira Ferro Alloys Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HERCULES.NS",
+        "name": "Hercules Hoists Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDINDBE.NS",
+        "name": "Hind Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HEXATRADEX.NS",
+        "name": "Hexa Tradex Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDNATGLS.NS",
+        "name": "Hindusthan National Glass & Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HDFC.NS",
+        "name": "Housing Development Finance Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDCOPPER.NS",
+        "name": "Hindustan Copper Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDDORROL.NS",
+        "name": "Hindustan Dorr-Oliver Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDUJAVEN.NS",
+        "name": "Hinduja Ventures Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIKAL.NS",
+        "name": "Hikal Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HTMEDIA.NS",
+        "name": "HT Media Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HOTLINGLAS.NS",
+        "name": "Hotline Glass Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDOILEXP.NS",
+        "name": "Hindustan Oil Exploration Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HGS.NS",
+        "name": "Hinduja Global Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HUBTOWN.NS",
+        "name": "Hubtown Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDSYNTEX.NS",
+        "name": "Hind Syntex Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HIGHGROUND.NS",
+        "name": "High Ground Enterprise Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HMVL.NS",
+        "name": "Hindustan Media Ventures Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HARITASEAT.NS",
+        "name": "Harita Seating Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HINDMOTORS.NS",
+        "name": "Hindustan Motors Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HBSTOCK.NS",
+        "name": "HB Stockholdings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "PAPERPROD.NS",
+        "name": "Huhtamaki PPL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HATSUN.NS",
+        "name": "Hatsun Agro Products Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HITECHSM.NS",
+        "name": "Hi-Tech Pipes Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HEIDELBERG.NS",
+        "name": "Heidelberg Cement India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HUSYSIT.NS",
+        "name": "Husys Consulting Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HARIAEXPOBE.NS",
+        "name": "Haria Exports Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HOTELRUGBY.NS",
+        "name": "Hotel Rugby Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HARYANSHETBE.NS",
+        "name": "Haryana Sheet Glass Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THANGAMAYL.NS",
+        "name": "Thangamayil Jewellery Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRANSCHEM.NS",
+        "name": "Transchem Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRF.NS",
+        "name": "TRF Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TCIEXP.NS",
+        "name": "TCI Express Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THYROCARE.NS",
+        "name": "Thyrocare Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THERMAX.NS",
+        "name": "Thermax Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TAJGVK.NS",
+        "name": "Taj GVK Hotels & Resorts Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATAMOTORS.NS",
+        "name": "Tata Motors Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TANFACIND.NS",
+        "name": "Tanfac Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THEJOSM.NS",
+        "name": "Thejo Engineering Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATAGLOBAL.NS",
+        "name": "Tata Global Beverages Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TELEDATAITBE.NS",
+        "name": "Teledata Technology Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TULSYANBE.NS",
+        "name": "Tulsyan NEC Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRIVENSHETBE.NS",
+        "name": "Triveni Glass Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TVSMOTOR.NS",
+        "name": "TVS Motor Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TECHNOELEC.NS",
+        "name": "Techno Electric & Engineering company Ltd. [Merged]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TANLA.NS",
+        "name": "Tanla Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIMBORBZ.NS",
+        "name": "Timbor Home Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRIL.NS",
+        "name": "Transformers & Rectifiers (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TI.NS",
+        "name": "Tilak Nagar Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TARMAT.NS",
+        "name": "Tarmat Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TAINWALCHMBE.NS",
+        "name": "Tainwala Chemicals & Plastics (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TANEJAEROBE.NS",
+        "name": "Taneja Aerospace & Aviation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TCPLTDBE.NS",
+        "name": "TCP Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TCIFINANCE.NS",
+        "name": "TCI Finance Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TECHNOFAB.NS",
+        "name": "Technofab Engineering Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TNPL.NS",
+        "name": "Tamil Nadu Newsprint And Papers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TREEHOUSEBE.NS",
+        "name": "Tree House Education & Accessories Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRIDENT.NS",
+        "name": "Trident Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TWILITAKABZ.NS",
+        "name": "Twilight Litaka Pharma Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TEXMOPIPES.NS",
+        "name": "Texmo Pipes & Products Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THOMASCOTTBE.NS",
+        "name": "Thomas Scott (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TARAJEWELS.NS",
+        "name": "Tara Jewels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TCIDEVELOP.NS",
+        "name": "TCI Developers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRIVENI.NS",
+        "name": "Triveni Engineering & Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TREADS.NS",
+        "name": "Treadsdirect Ltd.(Old)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "RAMCOCEM.NS",
+        "name": "The Ramco Cements Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TVVISION.NS",
+        "name": "TV Vision Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIPSINDLTDBE.NS",
+        "name": "Tips Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TUBEINVEST.NS",
+        "name": "Tube Investments of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRENT.NS",
+        "name": "Trent Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRANSPEK.NS",
+        "name": "Transpek Industry Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TODAYS.NS",
+        "name": "Todays Writing Instruments Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRANSFREITBE.NS",
+        "name": "Trans Freight Containers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "BYKE.NS",
+        "name": "The Byke Hospitality Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "21STCENMGM.NS",
+        "name": "Twentyfirst Century Management Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TINPLATE.NS",
+        "name": "Tinplate Company of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TTML.NS",
+        "name": "Tata Teleservices (Maharashtra) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TPLPLASTEH.NS",
+        "name": "TPL Plastech Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATACOFFEE.NS",
+        "name": "Tata Coffee Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TTL.NS",
+        "name": "T T Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ANANDAMRUB.NS",
+        "name": "The Anandam Rubber Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TWL.NS",
+        "name": "Titagarh Wagons Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TPINDIABE.NS",
+        "name": "TPI India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TTKPRESTIG.NS",
+        "name": "TTK Prestige Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORNTPOWER.NS",
+        "name": "Torrent Power Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TALBROAUTO.NS",
+        "name": "Talbros Automotive Components Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIRUMALCHM.NS",
+        "name": "Thirumalai Chemicals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATASPONGE.NS",
+        "name": "Tata Sponge Iron Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THIRUSUGAR.NS",
+        "name": "Thiru Arooran Sugars Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORRENTSEC.NS",
+        "name": "Torrent Power SEC Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "GROBTEA.NS",
+        "name": "The Grob Tea Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TVSSRICHAK.NS",
+        "name": "TVS Srichakra Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TELEPHNCAB.NS",
+        "name": "Telephone Cables Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TITAGRSTELBE.NS",
+        "name": "Titagarh Steels Ltd.[Merged]",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIDEWATER.NS",
+        "name": "Tide Water Oil Company India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TMRVL.NS",
+        "name": "The Mandhana Retail Ventures Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIMETECHNO.NS",
+        "name": "Time Technoplast Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TARAPURBE.NS",
+        "name": "Tarapur Transformers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIMEXWATCH.NS",
+        "name": "Timex Group India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIMKEN.NS",
+        "name": "Timken India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TECHIN.NS",
+        "name": "Techindia Nirman Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATAYODOGA.NS",
+        "name": "Tayo Rolls Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIL.NS",
+        "name": "TIL Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TULSI.NS",
+        "name": "Tulsi Extrusions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TEXINFRA.NS",
+        "name": "Texmaco Infrastructure & Holdings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THOMASCOOK.NS",
+        "name": "Thomas Cook (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TV18BRDCST.NS",
+        "name": "TV18 Broadcast Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TFCILTD.NS",
+        "name": "Tourism Finance Corporation of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRITURBINE.NS",
+        "name": "Triveni Turbine Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIJARIA.NS",
+        "name": "Tijaria Polypipes Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORRENTCABBE.NS",
+        "name": "Torrent Cables Ltd. (Old)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TUTICORALKBE.NS",
+        "name": "Tuticorin Alkali Chemicals & Fertilizers Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TECPROBZ.NS",
+        "name": "Tecpro Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TGBHOTELS.NS",
+        "name": "TGB Banquets and Hotels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TTKHLTCARE.NS",
+        "name": "TTK Healthcare Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIMESGTY.NS",
+        "name": "Times Guaranty Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TNTELEBE.NS",
+        "name": "Tamil Nadu Telecommunications Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TECHNO.NS",
+        "name": "Techno Electric & Engineering Company Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TEXRAIL.NS",
+        "name": "Texmaco Rail & Engineering Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TELEMARINEBE.NS",
+        "name": "Teledata Marine Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TFL.NS",
+        "name": "Transwarranty Finance Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TAKE.NS",
+        "name": "Take Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TNPETRO.NS",
+        "name": "Tamilnadu Petroproducts Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORRENGUJBE.NS",
+        "name": "Torrent Cables Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TEAMLEASE.NS",
+        "name": "TeamLease Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TERASOFT.NS",
+        "name": "Tera Software Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TVTODAY.NS",
+        "name": "TV Today Network Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TBZ.NS",
+        "name": "Tribhovandas Bhimji Zaveri Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TOKYOPLAST.NS",
+        "name": "Tokyo Plast International Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORRENTAEC.NS",
+        "name": "Torrent Power AEC Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "INDOZINCBE.NS",
+        "name": "Trinetra Cement Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRICOM.NS",
+        "name": "Tricom India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATAINVEST.NS",
+        "name": "Tata Investment Corporation Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TANTIACONSBE.NS",
+        "name": "Tantia Constructions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TORNTPHARM.NS",
+        "name": "Torrent Pharmaceuticals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TRIGYNBE.NS",
+        "name": "Trigyn Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TDPOWERSYS.NS",
+        "name": "TD Power Systems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TCI.NS",
+        "name": "Transport Corporation of India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "THEMISMED.NS",
+        "name": "Themis Medicare Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TULIPBZ.NS",
+        "name": "Tulip Telecom Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TAKSHEELBE.NS",
+        "name": "Taksheel Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TATAMETALI.NS",
+        "name": "Tata Metaliks Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TVSELECT.NS",
+        "name": "TVS Electronics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TV-18.NS",
+        "name": "Television Eighteen India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TIIL.NS",
+        "name": "Technocraft Industries (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "TALWALKARS.NS",
+        "name": "Talwalkars Better Value Fitness Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "VULCANENGBE.NS",
+        "name": "Terruzzi Fercalx India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "HITECHGEAR.NS",
+        "name": "The Hi-Tech Gears Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EVERESTIND.NS",
+        "name": "Everest Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ENDURANCE.NS",
+        "name": "Endurance Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ENIL.NS",
+        "name": "Entertainment Network (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EDL.NS",
+        "name": "Empee Distilleries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EIHAHOTELS.NS",
+        "name": "EIH Associated Hotels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EXIDEIND.NS",
+        "name": "Exide Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELGIRUBBER.NS",
+        "name": "Elgi Rubber Company Ltd.(Old)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ESSAROIL.NS",
+        "name": "Essar Oil Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "DRBECK.NS",
+        "name": "Elantas Beck India Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELBEEBE.NS",
+        "name": "Elbee Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EUPHARMLAB.NS",
+        "name": "Eupharma Laboratories Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ESTCSTSTELBE.NS",
+        "name": "Eastcoast Steel Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ENKTEXFOODBE.NS",
+        "name": "Enkay Texofood Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EASTSILK.NS",
+        "name": "Eastern Silk Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EVINIXBE.NS",
+        "name": "Evinix Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EUROCERA.NS",
+        "name": "Euro Ceramics Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EVERONN.NS",
+        "name": "Everonn Education Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ESSARSHPNG.NS",
+        "name": "Essar Shipping Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "VISUINTL.NS",
+        "name": "Ed & Tech International Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EMAMIINFRA.NS",
+        "name": "Emami Infrastructure Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELPROINTL.NS",
+        "name": "Elpro International Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EICHERBE.NS",
+        "name": "Eicher Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EIHOTEL.NS",
+        "name": "EIH Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EKC.NS",
+        "name": "Everest Kanto Cylinder Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ETCNETBE.NS",
+        "name": "ETC Networks Ltd.(Old1)",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "KIRLOSELECBE.NS",
+        "name": "Envair Electrodyne Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EASUNREYRL.NS",
+        "name": "Easun Reyrolle Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EXCELINDUS.NS",
+        "name": "Excel Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EIMCOELECOBE.NS",
+        "name": "Eimco Elecon (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EMKAYTOOLSSM.NS",
+        "name": "Emkay Taps & Cutting Tools Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ECEIND.NS",
+        "name": "ECE Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELNET.NS",
+        "name": "Elnet Technologies Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELFORGEBE.NS",
+        "name": "EL Forge Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELDERPHARMBZ.NS",
+        "name": "Elder Pharmaceuticals Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELECTRXBE.NS",
+        "name": "Electrex (India) Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EDUCOMP.NS",
+        "name": "Educomp Solutions Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "EDSERV.NS",
+        "name": "Edserv Softsystems Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ELECTCAST.NS",
+        "name": "Electrosteel Castings Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ECLERX.NS",
+        "name": "eClerx Services Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "ESL.NS",
+        "name": "Electrosteel Steels Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "WESTERNBIOBE.NS",
+        "name": "Ecoboard Industries Ltd.",
+        "sector": "Equities"
+    },
+    {
+        "symbol": "SHREEKRPET.NS",
+        "name": "Eskay Kn'IT (India) Ltd.",
+        "sector": "Equities"
+    }
+]
