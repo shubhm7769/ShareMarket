@@ -730,9 +730,93 @@ const UI = {
 
     notify(msg, type = 'success') {
         const area = document.getElementById('notification-area'); if (!area) return;
-        const t = document.createElement('div'); t.className = `toast ${type}`;
-        t.innerHTML = `<span>${msg}</span>`; area.appendChild(t);
-        setTimeout(() => t.remove(), 4000);
+        
+        let title = 'Notification';
+        let iconName = 'bell';
+        if (type === 'success') {
+            title = 'Success';
+            iconName = 'check-circle-2';
+        } else if (type === 'error') {
+            title = 'Error';
+            iconName = 'alert-triangle';
+        } else if (type === 'info') {
+            title = 'Info';
+            iconName = 'info';
+        }
+        
+        const t = document.createElement('div');
+        t.className = `toast ${type}`;
+        t.innerHTML = `
+            <div class="toast-icon"><i data-lucide="${iconName}"></i></div>
+            <div class="toast-content">
+                <div class="toast-title">${title}</div>
+                <div class="toast-msg">${msg}</div>
+            </div>
+            <div class="toast-progress"></div>
+        `;
+        area.appendChild(t);
+        if (window.lucide) window.lucide.createIcons();
+        
+        setTimeout(() => {
+            t.classList.add('toast-exit');
+            setTimeout(() => t.remove(), 350);
+        }, 4000);
+    },
+
+    notifyTrade(type, symbol, name, qty, price) {
+        const area = document.getElementById('notification-area'); if (!area) return;
+        
+        const isCrypto = DataService.isCrypto(symbol);
+        const cleanSymbol = symbol.replace('.NS', '').replace('-USD', '');
+        const total = qty * price;
+        const formattedTotal = total.toLocaleString('en-IN', { maximumFractionDigits: 2 });
+        const formattedPrice = price.toLocaleString('en-IN', { maximumFractionDigits: 2 });
+        const qtyStr = isCrypto ? qty.toFixed(4) : qty.toString();
+        const assetInitial = cleanSymbol.slice(0, 2);
+        
+        const t = document.createElement('div');
+        t.className = `toast-trade ${type}`;
+        t.innerHTML = `
+            <div class="toast-trade-header">
+                <div class="toast-trade-title-wrap">
+                    <div class="toast-trade-badge ${type}">${type} ORDER</div>
+                    <div class="toast-trade-time">Filled · Just now</div>
+                </div>
+                <div class="toast-trade-icon">
+                    <i data-lucide="${type === 'BUY' ? 'trending-up' : 'trending-down'}"></i>
+                </div>
+            </div>
+            <div class="toast-trade-asset">
+                <div class="toast-trade-logo">${assetInitial}</div>
+                <div class="toast-trade-info">
+                    <span class="toast-trade-sym">${cleanSymbol}</span>
+                    <span class="toast-trade-name">${name || symbol}</span>
+                </div>
+            </div>
+            <div class="toast-trade-receipt">
+                <div class="toast-trade-row">
+                    <span class="label">Quantity</span>
+                    <span class="value">${qtyStr} ${isCrypto ? 'units' : 'shares'}</span>
+                </div>
+                <div class="toast-trade-row">
+                    <span class="label">Execution Price</span>
+                    <span class="value">₹${formattedPrice}</span>
+                </div>
+                <div class="toast-trade-divider"></div>
+                <div class="toast-trade-row total">
+                    <span class="label">Total Value</span>
+                    <span class="value">₹${formattedTotal}</span>
+                </div>
+            </div>
+            <div class="toast-progress"></div>
+        `;
+        area.appendChild(t);
+        if (window.lucide) window.lucide.createIcons();
+        
+        setTimeout(() => {
+            t.classList.add('toast-exit');
+            setTimeout(() => t.remove(), 350);
+        }, 5000);
     },
 
     toggleTheme() {
@@ -780,6 +864,7 @@ const UI = {
             case 'crypto':      await this.viewCrypto(cont, title); break;
             case 'companies':   await this.viewCompanies(cont, title); break;
             case 'stocks':      this.viewStocks(cont, title); break;
+            case 'news':        await this.viewNews(cont, title); break;
             case 'portfolio':   await this.viewPortfolio(cont, title); break;
             case 'positions':   await this.viewPositions(cont, title); break;
             case 'history':     await this.viewHistory(cont, title); break;
@@ -1440,7 +1525,7 @@ const UI = {
             });
             const data = await res.json();
             if(data.success) {
-                this.notify(`${type} ${qty} x ${symbol} @ \u20b9${price.toFixed(2)} \u2714`,'success');
+                this.notifyTrade(type, symbol, name, qty, price);
                 // Refresh wallet & holdings from server
                 const w = await fetch('/api/wallet').then(r=>r.json());
                 AppState.wallet = w;
@@ -1570,6 +1655,70 @@ const UI = {
                 return `<div class="challenge-card"><div class="flex-between"><div><h3 style="font-size:15px">${ch.title}</h3><span style="font-size:11px;color:var(--dim)">${ch.daysRemaining} days remaining</span></div><span class="badge badge-purple">${ch.status}</span></div><div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div><div class="flex-between" style="font-size:12px"><span style="color:var(--dim)">Progress: ₹${(+ch.current).toLocaleString()} / ₹${(+ch.goal).toLocaleString()}</span><b class="text-cyan">${pct.toFixed(0)}%</b></div></div>`;
             }).join('')
         }</div>`;
+    },
+
+    async viewNews(c, t) {
+        t.innerText = 'Live Market News';
+        c.innerHTML = `
+            <div class="analysis-toolbar" style="margin-bottom: 20px;">
+                <div class="chart-period-tabs" style="display: flex; gap: 8px;">
+                    <button class="btn-period active" onclick="UI.changeNewsCategory('indian', this)">Indian Markets</button>
+                    <button class="btn-period" onclick="UI.changeNewsCategory('crypto', this)">Crypto Hub</button>
+                    <button class="btn-period" onclick="UI.changeNewsCategory('global', this)">Global Finance</button>
+                </div>
+            </div>
+            <div id="news-list" class="movers-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                <div class="analysis-loading"><div class="analysis-spinner"></div><p>Fetching real-time daily news…</p></div>
+            </div>
+        `;
+        if (window.lucide) window.lucide.createIcons();
+        await this.loadNews('indian');
+    },
+
+    async loadNews(category) {
+        const list = document.getElementById('news-list');
+        if (!list) return;
+        try {
+            const data = await fetch(`/api/news?category=${category}`).then(r => r.json());
+            if (!data || data.length === 0) {
+                list.innerHTML = '<div class="chart-empty-msg">Could not load news feed. Try again.</div>';
+                return;
+            }
+            list.innerHTML = data.map(item => `
+                <a href="${item.link}" target="_blank" class="glass-card" style="padding: 20px; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; color: inherit; min-height: 160px; transition: 0.3s; border-color: rgba(255,255,255,0.04);">
+                    <div>
+                        <div class="flex-between" style="margin-bottom: 10px;">
+                            <span class="badge badge-purple" style="font-size: 9px; padding: 4px 8px; font-weight: 800; border-radius: 6px;">${item.source}</span>
+                            <small style="color: var(--dim); font-size: 11px;">${item.pubDate.split(',')[0]}</small>
+                        </div>
+                        <h4 style="font-size: 14px; font-weight: 700; line-height: 1.4; color: var(--text); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 6px;">
+                            ${item.title}
+                        </h4>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; color: var(--cyan); margin-top: 14px;">
+                        Read Article <i data-lucide="arrow-up-right" class="icon-sm" style="width: 12px; height: 12px;"></i>
+                    </div>
+                </a>
+            `).join('');
+            if (window.lucide) window.lucide.createIcons();
+        } catch (e) {
+            list.innerHTML = '<div class="chart-empty-msg">Error loading news: ' + e.message + '</div>';
+        }
+    },
+
+    changeNewsCategory(category, btn) {
+        const parent = btn.parentElement;
+        if (parent) {
+            parent.querySelectorAll('button').forEach(b => {
+                b.classList.remove('active');
+                b.style.background = 'transparent';
+                b.style.color = 'var(--dim)';
+            });
+            btn.classList.add('active');
+            btn.style.background = 'rgba(255,255,255,0.04)';
+            btn.style.color = 'var(--text)';
+        }
+        this.loadNews(category);
     },
 
     _analysisSymbol: 'RELIANCE.NS',
